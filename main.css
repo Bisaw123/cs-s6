@@ -1,10 +1,17 @@
-body {
+body{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+p{
+  margin: 20px;
+}
+p::first-letter {
+  font-family: cursive;
   font-size: 36px;
+  line-height: .5;
 }
-
-li:first-child {
-  color: red;
-}
-ul:first-child{
-  background-color: yellow;
+p::first-line {
+  color:  red;
+  font-weight: 900;
 }
